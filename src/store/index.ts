@@ -18,7 +18,7 @@ export default new Vuex.Store({
   },
   mutations: {
     SET_LOADING(state) {
-      state.isLoading = state.isLoading;
+      state.isLoading = true;//state.isLoading;
     },
     SET_DEPARTURE_CITY(state, departureCity) {
       state.departureCity = departureCity;
