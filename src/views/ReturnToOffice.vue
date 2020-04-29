@@ -7,7 +7,7 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import OfficeCardList from "../components/returnToOffice/OfficeCardList.vue";
-import Store from "../store";
+// import Store from "../store";
 
 // The destionation offices are defined here, but later on they could be retrieved from any kind of Calendar API or so
 const offices = {
@@ -26,6 +26,8 @@ const offices = {
     },
   ],
 };
+
+console.log(offices);
 
 @Component({
   components: {
